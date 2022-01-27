@@ -3,19 +3,15 @@ package com.toptal.foodics.view.category
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.os.bundleOf
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.toptal.foodics.view.product.ProductActivity
 import android.app.Dialog
-import android.widget.ImageView
 import android.widget.TextView
-import androidx.constraintlayout.solver.widgets.Helper
 import com.toptal.foodics.R
 
 
@@ -30,7 +26,7 @@ class CategoryActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_category)
+        setContentView(R.layout.activity_category)
         title = "Categories"
 
         val startForResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
