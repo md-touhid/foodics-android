@@ -1,5 +1,5 @@
 # foodics-android
-Design Pattern: MVVM 
+Application Architecture: MVVM Design Pattern
 
 Language: Kotlin
 
